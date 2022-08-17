@@ -1,2 +1,2 @@
-# HTML-Notes
-Basic HTML information
+# HTML-CSS-Notes
+Basic HTML&CSS information
