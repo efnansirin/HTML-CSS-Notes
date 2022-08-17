@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="UTF-8">
+      <title>Ses ve Video Ekleme</title>
+</head>
+       
+<body>
+    <audio controls> <!--bu controls etiketi player haline getirerek müziği çalmamızı sağlıyor.-->
+        <!--audio etiketini açtıktan sonra "<source" etiketini açıyoruz ama bu etiket kapanmıyor.
+        Daha sonra dosyanın nerde olduğunu ve ne tarz bir dosya olduğunu belirtiyoruz. -->
+        <source src="Spring-Flowers.mp3" type="audio/mpeg" />
+        Bu ses dosyası desteklenmiyor..
+        <!--Dosya desteklenmediği zaman bu yazı ekrana gelecek.-->
+ </audio> 
+
+      <video width="640" height="340" controls autoplay loop> <!--"autoplay" özelliği sayfa açıldığı an videonun başlamasını 
+             sağlayan özellik."loop" ise video bittiği an tekrar başa dönmesini sağlayan özellik-->
+             <source src="Sia - Unstoppable.mp4" type="video/mp4" />
+             Bu video bu tarayıcı tarafından desteklenmiyor.
+      </video>
+</body>
+
+</html>

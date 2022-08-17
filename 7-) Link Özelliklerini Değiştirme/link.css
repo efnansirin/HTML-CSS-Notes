@@ -1,0 +1,15 @@
+a{
+color:rgb(38, 218, 158); /*linkin rengini değiştirir*/
+}
+
+a:hover{
+color:rgb(234, 131, 224); /*linkin üzerine gelindiğinde rengi değişir*/
+}
+
+a:active{
+color:rgb(15, 37, 136); /*linkin üzerine basılı tutulduğunda bu renk olur*/
+}
+
+a:visited{
+color: rgb(159, 43, 226); /*eğer bir sayfa ziyaret edilmişse geri dönüldüğünde oluşacak renk*/
+}

@@ -1,0 +1,13 @@
+p:first-letter {  /*buradaki first letter sadece baş harfi değiştiren bir pseudo koddur.*/
+    color:blueviolet; 
+    font-weight: bold;
+}
+
+p:first-child {
+    color: rgb(10, 147, 135);
+}
+
+p:nth-child(3){ /*3.satırda ki çocuğun özelliğini değiştiriyor.*/
+    color: aliceblue;
+    background-color: rgba(58, 31, 9, 0.842);
+}
